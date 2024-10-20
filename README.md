@@ -52,4 +52,4 @@ Welcome to **PetroPolis** - the ultimate virtual pet care platform! 🚀
 
 ## Website 🌐
 
-Check out our website: [petropolis.vercel.app](https://petropolis.vercel.app)
+Check out our website: [petro-polis.vercel.app](https://petro-polis.vercel.app)
