@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.homeScreen {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.headerProfileButton, .headerFeedButton, .headerChatButton, .miniGameButton, .socialButton {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.headerProfileButton {
+    background: linear-gradient(90deg, #006aff, #00a9f7);
+}
+
+.headerFeedButton {
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+}
+
+.headerChatButton {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+}
+
+.miniGameButton {
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+}
+
+.socialButton {
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.textContent {
+  text-align: left;
+  max-width: 50%;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.imageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.image {
+  width: 500px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.petProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.chip {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.happinessChip {
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+}
+
+.hungerChip {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.feedButton {
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.chatButton {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 30px;
+}
